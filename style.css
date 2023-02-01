@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+    list-style: none;
+    text-align: center;
+}
+
+h1 {
+    margin: 20px 20px;
+}
+
+p {
+    margin: 20px 20px;
+}
+
+div {
+    width: 100%;
+    margin: 40px 20px;
+}
+
+li,
+a,
+button {
+    text-decoration: none;
+}
+
+#projects {
+    display: none;
+}
+
+li,
+a {
+    color: whitesmoke;
+
+}
+
+nav ul li {
+    position: relative;
+}
+
+
+ul li:hover #projects {
+    display: block;
+    position: absolute;
+    background-color: rgb(255, 85, 0);
+}
+
+nav ul li ul li {
+    width: 150px;
+    display: block;
+}
+
+nav ul li ul li a {
+    float: left;
+    padding: 10px;
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10%;
+    background-color: rgb(255, 85, 0);
+
+}
+
+.nav-links {
+    list-style: none;
+}
+
+.nav-links li {
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+.nav-links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav-links li a:hover {
+    color: #777;
+
+}
+
+#name {
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-right-color: whitesmoke;
+}
+
+button {
+    padding: 9px 25px;
+    background-color: whitesmoke;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    color: rgb(255, 85, 0);
+    background-color: whitesmoke;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #777;
+    color: whitesmoke;
+}
+
+
+
+.collapsible {
+    background-color: #777;
+    color: whitesmoke;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    margin: 1px;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    position: sticky;
+    border-top: 5px;
+    border-color: whitesmoke;
+    transition: all 0.3s ease 0s;
+}
+
+.active,
+.collapsible:hover {
+    background-color: rgb(255, 85, 0);
+}
+
+.collapsible:after {
+    content: '\002B';
+    color: whitesmoke;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+}
+
+.active:after {
+    content: "\2212";
+}
+
+.content {
+    background-size: cover;
+    background-position: bottom center;
+    height: 600px;
+    padding: 0 18px;
+    display: none;
+    overflow: scroll;
+    text-align: center;
+    margin-top: 50px;
+    list-style-type: none;
+    color: whitesmoke;
+    justify-content: center;
+    /*vertical-align: middle;*/
+}
+
+/*
+.contact:hover {
+    color: rgb(255, 85, 0);
+} */
+
+.content ul {
+    margin: 0;
+    vertical-align: middle;
+    line-height: 35px;
+}
+
+#git {
+    color: rgb(255, 85, 0);
+    text-decoration: underline;
+}
+
+#PM {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./PM.jpeg");
+}
+
+#Philosophy {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./deathofseneca2.png');
+}
+
+#Econ {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./tulipmania.jpeg');
+    ;
+}
+
+#Business {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./traders.jpeg');
+}
+
+#Biography {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./idesofmarch.jpeg');
+}
+
+#Psychology {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./psychology3.jpeg');
+}
+
+#Science {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./alchemist.jpeg');
+}
+
+#History {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./Cole_Thomas_The_Course_of_Empire_Destruction_1836.jpeg');
+}
+
+/*footer {
+    background-color: #777;
+    color: whitesmoke;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+} */
