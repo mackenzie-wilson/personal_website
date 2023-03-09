@@ -19,10 +19,10 @@ p {
 
 }
 
-div {
+/*div {
     width: 100%;
     margin: 40px 20px;
-}
+}*/
 
 li,
 a,
@@ -103,7 +103,6 @@ button {
     cursor: pointer;
     transition: all 0.3s ease 0s;
     color: rgb(255, 85, 0);
-    background-color: whitesmoke;
     font-weight: bold;
 }
 
@@ -173,6 +172,9 @@ button:hover {
     line-height: 35px;
 }
 
+
+
+
 #git {
     color: rgb(255, 85, 0);
     text-decoration: underline;
@@ -211,6 +213,9 @@ button:hover {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./Cole_Thomas_The_Course_of_Empire_Destruction_1836.jpeg');
 }
 
+
+
+
 /*footer {
     background-color: #777;
     color: whitesmoke;
@@ -218,3 +223,91 @@ button:hover {
     width: 100%;
     bottom: 0;
 } */
+
+
+body {
+    font-family: "Montserrat", sans-serif;
+    background: #f1f1f1;
+}
+
+/* Header/Blog Title */
+.header {
+    padding: 30px;
+    font-size: 40px;
+    text-align: center;
+    background: white;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {
+    float: left;
+    width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+    float: left;
+    width: 25%;
+    padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+    background-color: #aaa;
+    width: 100%;
+    padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+    overflow: scroll;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.skills {
+    color: #777;
+
+}
+
+.hidden {
+    display: none;
+}
+
+.moreButton {
+    background-color: rgb(255, 85, 0);
+    color: whitesmoke;
+}
+
+.moreButton:hover {
+    background-color: #777;
+}
+
+.blog_list li a {
+    color: rgb(255, 85, 0);
+    text-decoration: underline;
+}
+
+.blog_list li a:hover {
+    color: #777;
+    text-decoration: none;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+
+    .leftcolumn,
+    .rightcolumn {
+        width: 100%;
+        padding: 0;
+    }
+}

@@ -31,7 +31,81 @@
     </header>
 
     <main>
-        <h1>Under Construction</h1>
+        <div class="header">
+            <h2>Blog</h2>
+        </div>
+
+        <div class="row">
+            <div class="leftcolumn">
+                <div class="card">
+                    <h2 id="secondPost">Mockup Design</h2>
+                    <h5>Title description, March 8th, 2023</h5>
+                    <p class="skills">Skills used: X, X, X</p>
+                    <div class="fakeimg" style="height:200px;">Image</div>
+                    <p>text here<span id="dots2" class="dots">...</span>
+                        <span id="more2" class="hidden">And Here</span>
+
+                    </p>
+                    <button onClick="readMore(this.name)" id="button2" name="2" class="moreButton">Read more</button>
+
+                </div>
+                <div class="card">
+                    <h2 id="firstPost">What is CheapNite?</h2>
+                    <h5>Title description, March 7th, 2023</h5>
+                    <p class="skills">Skills used: X, X, X</p>
+
+                    <div class="fakeimg" style="height:200px;">Image</div>
+                    <p>CheapNite is a digital marketing platform aimed at helping users <span id="dots1"
+                            class="dots">...</span>
+                        <span id="more1" class="hidden">find and utilize restaurant
+                            deals, specials, and promotions in their local area. Cheapnite is also a great platform for
+                            restaurants to promote their specials and deals to customers living in, or traveling through
+                            their city at an affordable price.</span>
+                    </p>
+                    <button onClick="readMore(this.name)" id="button1" name="1" class="moreButton">Read more</button>
+
+                </div>
+            </div>
+            <div class="rightcolumn">
+                <div class="card">
+                    <h2>About Me</h2>
+                    <div class="fakeimg" style="height:100px;">Image</div>
+                    <p>Some text about me in culpa qui officia deserunt mollit anim..</p>
+                </div>
+                <div class="card">
+                    <h3>Projects</h3>
+                    <div class="fakeimg">CheapNite</div><br>
+                    <div class="fakeimg">Social Application: Name Pending</div><br>
+
+                </div>
+                <div class="card">
+                    <h3>Contact Me</h3>
+                    <p>mackenzie@macwilson.tech</p>
+                </div>
+            </div>
+        </div>
+
+        <script>
+            function readMore(num) {
+                var textName = "more" + num
+                var dotsName = "dots" + num
+                var buttonName = "button" + num
+                var dots = document.getElementById(dotsName);
+                var moreText = document.getElementById(textName);
+                var btnText = document.getElementById(buttonName);
+
+                if (dots.style.display === "none") {
+                    dots.style.display = "inline";
+                    btnText.innerHTML = "Read more";
+                    moreText.style.display = "none";
+                } else {
+                    dots.style.display = "none";
+                    btnText.innerHTML = "Read less";
+                    moreText.style.display = "inline";
+                }
+
+            }
+        </script>
     </main>
 
 </body>
