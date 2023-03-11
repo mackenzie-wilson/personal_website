@@ -38,8 +38,8 @@
         <div class="row">
             <div class="leftcolumn">
                 <!--   <div class="card">
-                    <h2 id="thirdPost">Designing the Minimum Viable Product: Mockups</h2>
-                    <h5>March 8th, 2023</h5>
+                    <h2 id="thirdPost">User Personas</h2>
+                    <h5>March 11th, 2023</h5>
                     <p class="skills"> Product Management | Design</span> | <span class="focus">Development</span></p>
                     <div class="fakeimg" style="height:200px;" id="mockupImg"></div>
                     <p>text here<span id="dots3" class="dots">...</span>
@@ -107,28 +107,40 @@
                 </div>
             </div>
         </div>
+        <div class="older">
+            <div class="card">
+                <h2 id="thirdPost">User Personas</h2>
+                <h5>March 11th, 2023</h5>
+                <p class="skills"> Product Management | Design</span> | <span class="focus">Development</span></p>
+                <div class="fakeimg" style="height:200px;" id="mockupImg"></div>
+                <p>text here<span id="dots3" class="dots">...</span>
+                    <span id="more3" class="hidden">And Here</span>
 
-        <script>
-            function readMore(num) {
-                var textName = "more" + num
-                var dotsName = "dots" + num
-                var buttonName = "button" + num
-                var dots = document.getElementById(dotsName);
-                var moreText = document.getElementById(textName);
-                var btnText = document.getElementById(buttonName);
+                </p>
+                <button onClick="readMore(this.name)" id="button3" name="3" class="moreButton">Read more</button>
+            </div>
 
-                if (dots.style.display === "none") {
-                    dots.style.display = "inline";
-                    btnText.innerHTML = "Read more";
-                    moreText.style.display = "none";
-                } else {
-                    dots.style.display = "none";
-                    btnText.innerHTML = "Read less";
-                    moreText.style.display = "inline";
+            <script>
+                function readMore(num) {
+                    var textName = "more" + num
+                    var dotsName = "dots" + num
+                    var buttonName = "button" + num
+                    var dots = document.getElementById(dotsName);
+                    var moreText = document.getElementById(textName);
+                    var btnText = document.getElementById(buttonName);
+
+                    if (dots.style.display === "none") {
+                        dots.style.display = "inline";
+                        btnText.innerHTML = "Read more";
+                        moreText.style.display = "none";
+                    } else {
+                        dots.style.display = "none";
+                        btnText.innerHTML = "Read less";
+                        moreText.style.display = "inline";
+                    }
+
                 }
-
-            }
-        </script>
+            </script>
     </main>
 
 </body>
