@@ -221,6 +221,14 @@ button:hover {
     background-image: url(./mockup.png);
 }
 
+#personaImg {
+    background-image: url(./userpersonas.png);
+}
+
+#bmcImg {
+    background-image: url(./bmcImg.png);
+}
+
 
 /*footer {
     background-color: #777;

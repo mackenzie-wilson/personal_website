@@ -37,56 +37,39 @@
 
         <div class="row">
             <div class="leftcolumn">
-                <!--   <div class="card">
-                    <h2 id="thirdPost">User Personas</h2>
-                    <h5>March 11th, 2023</h5>
-                    <p class="skills"> Product Management | Design</span> | <span class="focus">Development</span></p>
-                    <div class="fakeimg" style="height:200px;" id="mockupImg"></div>
-                    <p>text here<span id="dots3" class="dots">...</span>
-                        <span id="more3" class="hidden">And Here</span>
+                <div class="card">
+                    <h2 id="fourthPost">Constructing User Personas</h2>
+                    <h5>Coming Soon</h5>
+                    <p class="skills"> Product Management | <span class="focus">Design</span> | Development</p>
+                    <div class="fakeimg" style="height:200px;" id="personaImg"></div>
+                    <p>Constructing our archetypical users </p>
+                    <!--<span id="dots4" class="dots">...</span>
+                        <span id="more3" class="hidden">And Here</span> 
 
                     </p>
-                    <button onClick="readMore(this.name)" id="button3" name="3" class="moreButton">Read more</button>
--->
-
+                    <button onClick="readMore(this.name)" id="button4" name="4" class="moreButton">Read more</button>-->
+                </div>
                 <div class="card">
-                    <h2 id="secondPost">Designing the Minimum Viable Product: Mockups</h2>
-                    <h5>March 8th, 2023</h5>
+                    <h2 id="thirdPost">Designing the Minimum Viable Product: Mockups</h2>
+                    <h5>Coming Soon</h5>
                     <p class="skills"> Product Management | <span class="focus">Design</span> | Development</p>
                     <div class="fakeimg" style="height:200px;" id="mockupImg"></div>
-                    <p>text here<span id="dots2" class="dots">...</span>
-                        <span id="more2" class="hidden">And Here</span>
+                    <p>I will be outlining the designing our first mockups and translating them in to requirements to be
+                        placed on our prodcut roadmap </p><!--<span id="dots3" class="dots">...</span>
+                        <span id="more2" class="hidden">And Here</span> 
 
                     </p>
-                    <button onClick="readMore(this.name)" id="button2" name="2" class="moreButton">Read
-                        more</button>
+                    <!--<button onClick="readMore(this.name)" id="button3" name="3" class="moreButton">Read
+                        more</button>-->
 
                 </div>
-                <div class="card">
-                    <h2 id="firstPost">What is CheapNite?</h2>
-                    <h5>March 7th, 2023</h5>
-                    <p class="skills"> <span class="focus">Product Management</span> | Design | Development</p>
-                    <p class="resources"></p>
 
-                    <div class="fakeimg" style="height:200px;" id="cheapImg"></div>
-                    <p>CheapNite is a digital marketing platform aimed at helping users <span id="dots1"
-                            class="dots">...</span>
-                        <span id="more1" class="hidden">find and utilize restaurant
-                            deals, specials, and promotions in their local area. Cheapnite is also a great platform
-                            for
-                            restaurants to promote their specials and deals to customers living in, or traveling
-                            through
-                            their city at an affordable price.</span>
-                    </p>
-                    <button onClick="readMore(this.name)" id="button1" name="1" class="moreButton">Read
-                        more</button>
-
-                </div>
             </div>
             <div class="rightcolumn">
                 <div class="card">
                     <h2>About Me</h2>
-                    <p>Some text about me in culpa qui officia deserunt mollit anim..</p>
+                    <p>Documenting my journey designing and building products in order to transition to a
+                        product management role preferably in a startup or growth-stage company.</p>
                 </div>
                 <div class="card">
                     <h3>Projects</h3>
@@ -109,38 +92,85 @@
         </div>
         <div class="older">
             <div class="card">
-                <h2 id="thirdPost">User Personas</h2>
-                <h5>March 11th, 2023</h5>
-                <p class="skills"> Product Management | Design</span> | <span class="focus">Development</span></p>
-                <div class="fakeimg" style="height:200px;" id="mockupImg"></div>
-                <p>text here<span id="dots3" class="dots">...</span>
-                    <span id="more3" class="hidden">And Here</span>
+                <h2 id="secondPost">Business Model Design: Applying the Business Model Canvas</h2>
+                <h5>Coming Soon</h5>
+                <p class="skills"> <span class="focus">Product Management</span> | Design | Development</p>
+                <div class="fakeimg" style="height:200px;" id="bmcImg"></div>
+                <p>"The Business Model Canvas is a strategic management template used for developing new business models
+                    and documenting existing ones."</p> <!--<span id="dots2" class="dots">...</span>
+                   <span id="more2" class="hidden">And Here</span> 
 
                 </p>
-                <button onClick="readMore(this.name)" id="button3" name="3" class="moreButton">Read more</button>
+                <button onClick="readMore(this.name)" id="button2" name="2" class="moreButton">Read
+                    more</button>-->
+
             </div>
 
-            <script>
-                function readMore(num) {
-                    var textName = "more" + num
-                    var dotsName = "dots" + num
-                    var buttonName = "button" + num
-                    var dots = document.getElementById(dotsName);
-                    var moreText = document.getElementById(textName);
-                    var btnText = document.getElementById(buttonName);
 
-                    if (dots.style.display === "none") {
-                        dots.style.display = "inline";
-                        btnText.innerHTML = "Read more";
-                        moreText.style.display = "none";
-                    } else {
-                        dots.style.display = "none";
-                        btnText.innerHTML = "Read less";
-                        moreText.style.display = "inline";
-                    }
 
+            <div class="card">
+                <h2 id="firstPost">What is CheapNite?</h2>
+                <h5>March 13th, 2023</h5>
+                <p class="skills"> <span class="focus">Product Management</span> | Design | Development</p>
+                <p class="resources"></p>
+
+                <div class="fakeimg" style="height:200px;" id="cheapImg"></div>
+                <p>CheapNite is a digital marketing platform aimed at helping users <span id="dots1"
+                        class="dots">...</span>
+                    <span id="more1" class="hidden">find and utilize restaurant
+                        deals, specials, and promotions in their local area. Cheapnite is also a great platform
+                        for
+                        restaurants to promote their specials and deals to customers living in, or traveling
+                        through
+                        their city at an affordable price. <br><br>
+                        The idea for CheapNite was born from a problem experienced by two hungry university students
+                        looking for somewhere to sit down for cheap food. Finding a simple google search unfruitful,
+                        they wondered why there wasn't a central spot to find local sit-down deals in their immediate
+                        area. They pitched the idea to the university's startup incubator program and was accepted to
+                        the cohort. Specializing in business, the two ended up seeking people for the technology side of
+                        things.
+                        <br><br>
+                        One of the student's older brothers had just graduated with a degree in Computer Science and
+                        was looking for a development project to bolster his resume and add to his portfolio.
+                        Knowing I was in the same boat, he suggested we join the founding team of CheapNite to help
+                        develop their product.
+                        <br><br>
+                        Areas I was looking to improve were my weak points whenever I was applying and interviewing for
+                        poduct management roles.
+                        I had a strong analytical background, done some basic design and development, but never work
+                        alongside a developer and designer while influencing without authority. We figured the best way
+                        for us to both benefit was to have him lead software development while I lead product, both
+                        contributing to design, product management, and development in varying capacities to maximize
+                        business value and communication with the business, marketing, and sales team.
+                    </span>
+                </p>
+                <button onClick="readMore(this.name)" id="button1" name="1" class="moreButton">Read
+                    more</button>
+
+            </div>
+        </div>
+
+        <script>
+            function readMore(num) {
+                var textName = "more" + num
+                var dotsName = "dots" + num
+                var buttonName = "button" + num
+                var dots = document.getElementById(dotsName);
+                var moreText = document.getElementById(textName);
+                var btnText = document.getElementById(buttonName);
+
+                if (dots.style.display === "none") {
+                    dots.style.display = "inline";
+                    btnText.innerHTML = "Read more";
+                    moreText.style.display = "none";
+                } else {
+                    dots.style.display = "none";
+                    btnText.innerHTML = "Read less";
+                    moreText.style.display = "inline";
                 }
-            </script>
+
+            }
+        </script>
     </main>
 
 </body>
