@@ -239,6 +239,11 @@ button:hover {
     color: black;
 }
 
+#cheapNiteNav {
+    background-image: url(./CheapNite.png);
+
+}
+
 
 /*footer {
     background-color: #777;
@@ -279,11 +284,24 @@ body {
 }
 
 /* Fake image */
-.fakeimg {
+.img {
     background-color: rgb(255, 85, 0);
     width: 100%;
     padding: 20px;
     color: whitesmoke;
+
+    -webkit-filter: brightness(100%);
+
+}
+
+.img:hover {
+    background-color: #777;
+    -webkit-filter: brightness(70%);
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
 }
 
 .older {
@@ -291,9 +309,7 @@ body {
 }
 
 
-.fakeimg:hover {
-    background-color: #777;
-}
+
 
 /* Add a card effect for articles */
 .card {
