@@ -240,7 +240,8 @@ button:hover {
 }
 
 #cheapNiteNav {
-    background-image: url(./CheapNite.png);
+    /*background-image: url(./CheapNite.png);*/
+    background-color: rgb(193, 226, 190);
 
 }
 
