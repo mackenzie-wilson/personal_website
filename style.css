@@ -76,6 +76,10 @@ header {
 
 }
 
+h5 {
+    padding-top: 5px;
+}
+
 .nav-links {
     list-style: none;
 }
@@ -243,6 +247,10 @@ button:hover {
     /*background-image: url(./CheapNite.png);*/
     background-color: rgb(193, 226, 190);
 
+}
+
+#dots2 {
+    color: white;
 }
 
 
