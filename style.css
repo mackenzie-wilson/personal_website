@@ -198,9 +198,23 @@ button:hover {
     color: black;
 }
 
-ol {
-    list-style: lower-alpha;
+.user_list {
+    list-style-position: inside;
+    padding-left: 0;
+    text-align: center;
 }
+
+.user_list li {
+    padding-top: 7.5px;
+    padding-bottom: 7.5px;
+    color: #777;
+}
+
+em {
+    color: rgb(255, 85, 0)
+}
+
+
 
 .content ul {
     margin: 0;
@@ -287,7 +301,12 @@ ol {
     display: block;
 }
 
-
+#storyImg {
+    background-image: url(./Stories.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+}
 
 #dots2 {
     color: white;

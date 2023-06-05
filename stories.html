@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Blog · Mac Wilson</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="./readMore.js"></script>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul class="nav-links">
+                <li id="name" class="nav-item"><a href="index.html">Mackenzie Wilson</a></li>
+                <li class="nav-item"><a href="bookshelf.html">Bookshelf</a>
+                </li>
+                <li class="nav-item"><a href="projects.html">Projects</a>
+                    <ul>
+                        <li id="projects"><a href="social.html"><br><br>Social App (Name Pending)</a></li>
+                        <li id="projects"><a href="cheap.html">CheapNite</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item"><a href="blog.html">Blog</a></li>
+            </ul>
+        </nav>
+        <a class="contact" href="mailto: mackenzie@macwilson.tech"><button>Contact</button></a>
+    </header>
+
+
+    <main>
+        <!--INSERT BLOG POST HERE-->
+        <div class="row">
+            <div class="leftcolumn">
+                <div class="card">
+                    <h2>Writing User Stories: An INVEST and SMART Approach to Empathetic Software Development</h2>
+                    <h5 class="date">April 20th, 2023</h5>
+                    <p class="skills"> <span class="focus">Product Management </span>| Design
+                        | Development</p>
+                    <div class="blogimg" style="height:200px;" id="storyImg"></div>
+                    <br>
+                    <h4>Introduction</h3>
+                        <p>In the world of software development, user stories serve as powerful tools that enable
+                            developers
+                            to gain a deeper understanding of the problems they are solving by putting themselves in the
+                            shoes of the users. By incorporating user empathy into the development process, teams can
+                            create
+                            user-centric solutions that truly address the needs and pain points of their target
+                            audience. In
+                            this blog post, we will explore how user stories, coupled with the INVEST and SMART methods,
+                            help software developers craft impactful solutions. We will use the example of an app that
+                            provides users with a list of in-person deals at restaurants, focusing on happy hour
+                            discounts
+                            based on their location and preferences. Additionally, we will break down the acceptance
+                            criteria of the user story into separate user stories to ensure a more focused and
+                            comprehensive
+                            approach.</p>
+
+                        <h4>Why User Stories Foster Empathetic Software Development</h3>
+                            <p>User stories provide software developers with a lens through which they can view their
+                                projects
+                                from the perspective of the end-users. By capturing the specific needs and desires of
+                                the users,
+                                user stories facilitate a shared understanding among the development team, designers,
+                                and
+                                stakeholders. This empathetic approach helps create solutions that truly resonate with
+                                the
+                                users, leading to higher user satisfaction and engagement.</p>
+
+                            <h4>The INVEST Method: Ensuring Quality User Stories</h3>
+                                <p>The INVEST method outlines six key characteristics that user stories should possess
+                                    to be
+                                    effective. These characteristics guide the development team in creating
+                                    well-defined,
+                                    actionable, and valuable user stories:
+                                </p>
+                                <ol class="user_list">
+                                    <li><em>Independent:</em> User stories should be self-contained, delivering specific
+                                        value
+                                        without relying
+                                        on other stories.</li>
+                                    <li><em>Negotiable:</em> User stories should be open to collaboration and
+                                        discussion,
+                                        allowing for
+                                        input from all stakeholders.</li>
+                                    <li><em>Valuable:</em> User stories should focus on solving problems or meeting user
+                                        needs,
+                                        providing
+                                        clear value to the end-users.</li>
+                                    <li><em>Estimable:</em> User stories should be easily estimable in terms of effort,
+                                        complexity, and
+                                        time.</li>
+                                    <li><em>Small:</em> User stories should be manageable, breaking down larger features
+                                        into
+                                        smaller,
+                                        incremental deliverables.</li>
+                                    <li><em>Testable:</em> User stories should have clear acceptance criteria, defining
+                                        the
+                                        conditions for
+                                        successful implementation.</li>
+                                </ol>
+                                <br>
+                                <h4>Applying the SMART Method to Refine Objectives Through Acceptance Criteria:</h4>
+                                <p>In addition to the INVEST method, the SMART framework can help define clear and
+                                    measurable objectives within user stories. SMART stands for Specific, Measurable,
+                                    Achievable, Relevant, and Time-bound. By incorporating SMART principles into user
+                                    stories, development teams can ensure that their objectives are well-defined and
+                                    aligned with project goals.</p>
+                                <h4>Example CheapNite User Story: Discover Nearby Happy Hour Deals</h4>
+                                <p>As a user of the app, I want to discover nearby happy hour deals at restaurants based
+                                    on my location and preferences, so that I can enjoy discounted prices and special
+                                    offers.</p>
+                                <h6>Acceptance Criteria</h6>
+                                <ol class="user_list">
+                                    <li> The app should access the user's location to provide accurate nearby deals.
+                                    </li>
+                                    <li> The app should allow users to specify their preferences, such as cuisine type,
+                                        preferred days, and time ranges for happy hour deals.</li>
+                                    <li> The app should display a list of restaurants with their corresponding happy
+                                        hour deals, sorted by proximity to the user's location.</li>
+                                    <li> Each deal should include relevant information, such as the discounted prices,
+                                        time duration, and any additional offers.</li>
+                                    <li> The app should provide filtering options to allow users to refine the results
+                                        based on their preferences.</li>
+                                    <li> Users should be able to view additional details about each deal, such as the
+                                        restaurant's address, contact information, and user reviews. </li>
+                                    <li> The app should provide a map view to visualize the restaurant locations and
+                                        help users choose the most convenient option.</li>
+                                    <li> Users should be able to save or bookmark their favorite deals for future
+                                        reference.</li>
+                                    <li> The app should send notifications to users when new deals matching their
+                                        preferences become available.</li>
+                                </ol>
+
+                                <h6>Breaking Down Acceptance Criteria into User Stories</h6>
+                                <ol class="user_list">
+                                    <p>Acceptance criteria can be used to write user stories with more granularity.</p>
+                                    <li><em>User Story:</em> Enable Location Access for Nearby Deals
+                                        <br>
+                                        - As a user, I want the app to access my device's location to provide accurate
+                                        nearby happy hour deals.
+                                        <br>
+                                        <em>Acceptance Criteria:</em> The app should prompt the user to grant location
+                                        access permission and utilize the obtained location information to fetch
+                                        relevant deals.
+
+                                    <li><em>User Story:</em> Specify Preferences for Happy Hour Deals
+                                        <br>
+                                        - As a user, I want to be able to specify my preferences for happy hour deals.
+                                        <br>
+                                        <em>Acceptance Criteria:</em> The app should provide options for selecting
+                                        cuisine type, preferred days, and time ranges for happy hour deals.
+                                    </li>
+
+                                    <li><em>User Story:</em> Display Sorted List of Restaurants with Happy Hour Deals
+                                        <br>
+                                        - As a user, I want to see a list of restaurants with their corresponding happy
+                                        hour deals, sorted by proximity to my location.
+                                        <br>
+                                        <em>Acceptance Criteria:</em> The app should display a visually appealing and
+                                        sorted list of nearby restaurants offering happy hour deals.
+                                    </li>
+
+                                    <li><em>User Story:</em> Provide Detailed Information for Each Deal
+                                        - As a user, I want to view detailed information about each happy hour deal.
+                                        <em>Acceptance Criteria:</em> The app should present relevant details such as
+                                        discounted prices, time duration, and any additional offers for each deal.
+                                    </li>
+
+                                    <p>
+                                        By breaking down the acceptance criteria into separate user stories, development
+                                        teams can better focus on specific requirements, estimate effort more
+                                        accurately, and ensure comprehensive coverage of functionality.</p>
+                                </ol>
+                                <h4>Conclusion</h4>
+                                <p>User stories, when crafted using the INVEST and SMART methods, provide a powerful
+                                    framework for software developers to empathize with users and create solutions that
+                                    truly meet their needs. By breaking down acceptance criteria into individual user
+                                    stories, teams can ensure a more focused approach to development, enhanced
+                                    collaboration, and improved traceability. Embracing user empathy through user
+                                    stories allows developers to build software that truly resonates with their target
+                                    audience, leading to more successful and impactful projects.</p>
+                </div>
+
+
+            </div>
+            <!--END BLOG POST HERE-->
+
+            <div class="rightcolumn">
+                <div class="card">
+                    <h2>About Me</h2>
+                    <p>Documenting my journey designing and building products in order to transition to a
+                        product management role preferably in a startup or growth-stage company.</p>
+                </div>
+                <div class="card">
+                    <h3>Projects</h3>
+                    <a href="cheap.html" class="navcard">
+                        <div class="img" id="cheapNiteNav">CheapNite</div><br>
+                    </a>
+                    <a href="social.html" class="navcard">
+                        <div class="img">Social Application: Name Pending</div><br>
+                    </a>
+                    <a href="https://github.com/mackenzie-wilson/personal_website.git" class="navcard">
+                        <div class="img">This Website/Blog</div><br>
+                    </a>
+
+                </div>
+                <div class="card">
+                    <h3>Contact Me</h3>
+                    <p>mackenzie@macwilson.tech</p>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
