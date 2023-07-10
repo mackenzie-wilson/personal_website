@@ -55,6 +55,10 @@ a {
 
 }
 
+#link {
+    color: coral;
+}
+
 nav ul li {
     position: relative;
 }
