@@ -276,6 +276,11 @@ em {
     background-image: url(./mockup.png);
 }
 
+#mvpImg {
+    background-image: url(./mvp.png);
+}
+
+
 #personaImg {
     background-image: url(./userpersonas.png);
 }
